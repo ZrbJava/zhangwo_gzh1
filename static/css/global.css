@@ -1,0 +1,142 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+    margin:0 auto;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+#app{
+    /* height:100%; */
+    padding-bottom:50px;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.pa {
+    position: absolute;
+}
+
+.pr {
+    position: relative;
+}
+
+.pf {
+    position: fixed;
+}
+
+.frc {
+    display: flex;
+    /* justify-content: spa; */
+    align-items: center;
+    flex-direction: row
+}
+
+.fcc {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+/* 垂直居中 */
+
+.phc {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%)
+}
+
+
+/* 垂直居中 */
+
+.pvc {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* 水平垂直居中 */
+
+.phvc {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.mb3{margin-bottom:3px;}
+.mb4{margin-bottom:4px;}
+.mb5{margin-bottom:5px;}
+.mb6{margin-bottom:6px;}
+.mb8{margin-bottom:8px;}
+.mb10 {margin-bottom: 10px;}
+.mb12 {margin-bottom: 12px;}
+.mb14 {margin-bottom: 14px;}
+.mb15 {margin-bottom: 15px;}
+.mt10{margin-top:10px;}
+
+.mb20 { margin-bottom: 20px;}
+.mb35 { margin-bottom: 35px;}
+
+.mr5{margin-right: 5px}
+.mr10{margin-right: 10px}
+.mr20{margin-right: 20px}
+.mr32{margin-right: 32px}
+
+.pl6{padding-left:6px}
+.pl8{padding-left:8px}
+.pl10{padding-left: 10px}
+.pl22{padding-left: 22px}
+.pr5{padding-right: 5px;}
+.pr10{padding-right: 10px}
+.pr8{padding-right:8px}
+.pr26{padding-right:26px}
+
+.pt3{padding-top: 3px;}
+.pt8{padding-top: 8px;}
+.pt10{padding-top: 10px;}
+.f10{font-size:10px;}
+.f12{font-size:12px;}
+.f14{font-size:14px;}
+
+.yd-slider-item img{
+    height:188px;
+  }
+  img{
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+   }
